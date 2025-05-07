@@ -1,0 +1,15 @@
+{
+    "character": "我",
+    "pinyin": "wǒ",
+    "translation": "I, me",
+    "example_sentence": {
+        "chinese": "我是学生。",
+        "pinyin": "Wǒ shì xuéshēng.",
+        "english": "I am a student."
+    },
+    "colors": {
+        "background": "#f9f5f0",
+        "text": "#1d3557"
+    },
+    "style": "ghibli"
+}
