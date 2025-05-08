@@ -30,7 +30,7 @@ assets_subfolders = [
 os.makedirs(root_dir, exist_ok=True)
 
 # === 01_wo/ Sample Lesson ===
-lesson_id = "01_wo"
+lesson_id = "lesson_01_wo"
 lesson_path = os.path.join(root_dir, lesson_id)
 os.makedirs(lesson_path, exist_ok=True)
 
@@ -61,8 +61,6 @@ config_data = {
 with open(os.path.join(lesson_path, "config.json"), "w", encoding="utf-8") as f:
     json.dump(config_data, f, ensure_ascii=False, indent=4)
 
-# === Placeholder 02_ai/ folder ===
-os.makedirs(os.path.join(root_dir, "02_ai"), exist_ok=True)
 
 # === Assets ===
 assets_path = os.path.join(root_dir, "assets")
